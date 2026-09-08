@@ -1,1 +1,0 @@
-# Vets-Outlook-Email-Signature
