@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+body {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+.signature-container {
+    width: 600px;
+    text-align: left;
+}
+.header-info {
+    margin-bottom: 15px;
+}
+.name {
+    font-weight: bold;
+    font-size: 16px;
+}
+.title {
+    font-style: italic;
+    margin-top: 3px;
+}
+.contact-info {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.headquarters {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.address {
+    font-size: 13px;
+    line-height: 1.5;
+}
+.logo-section {
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.logo-image {
+    height: 60px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.logos-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+</style>
+</head>
+<body>
+<div class="signature-container">
+    <div class="header-info">
+        <div class="name">{DisplayName}</div>
+        <div class="title">{JobTitle} | VETS LLC.</div>
+        <div class="contact-info">
+            Email: {Email}<br>
+            Cell: {MobilePhone}<br>
+            Website: <a href="http://vetsmbse.com">vetsmbse.com</a>
+        </div>
+    </div>
+
+    <div>
+        <div class="headquarters">Headquarters:</div>
+        <div class="address">
+            140 Research Blvd.<br>
+            Madison, Alabama 35758
+        </div>
+    </div>
+
+    <div class="logo-section">
+        <div class="logos-container">
+            <img src="VETSlogo.png" alt="VETS Logo" class="logo-image">
+            <img src="Service-Disabled-Veteran-Owned-Certified.png" alt="Service Disabled Veteran Owned Certified" class="logo-image">
+            <img src="DoD SkillBridge.png" alt="DoD SkillBridge" class="logo-image">
+        </div>
+    </div>
+</div>
+</body>
+</html>
